@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray">#c8c8c8</color>
+
+    <color name="color_logo">#FFF6005A</color>
+
+    <!-- ================================== 颜色（定义色值注释颜色，建议以color开头） ================================== -->
+    <!-- 透明-->
+    <color name="color_transparent">#00000000</color>
+    <!--半透明-->
+    <color name="color_translucent">#80000000</color>
+    <!--70%透明-->
+    <color name="color_transparent_b2">#B2000000</color>
+    <!--半透明-->
+    <color name="color_transparent_b3">#B3000000</color>
+    <!--30% 的透明 -->
+    <color name="color_transparent_4d">#4d000000</color>
+    <!--70% 的透明 -->
+    <color name="color_transparent_af">#AF000000</color>
+
+    <!-- 主色调红 -->
+    <color name="color_red">#FA2B5C</color>
+
+    <color name="fc5474">#FC5474</color>
+    <!-- 透明度为BB的红 -->
+    <color name="color_bbfe5164">#bbfe5164</color>
+    <!-- 玫瑰色 -->
+    <color name="color_5e5e5e">#5E5E5E</color>
+
+    <color name="color_ee0738">#EE0738</color>
+    <!-- 淡红色-->
+    <color name="color_ff9999">#FF9999</color>
+    <!-- 红色1-->
+    <color name="color_ed3d51">#ED3D51</color>
+    <!-- 红色2-->
+    <color name="color_ff4c4c">#FF4C4C</color>
+    <!-- 红色3-->
+    <color name="color_fa2549">#FA2549</color>
+    <!-- 红色4-->
+    <color name="color_ff5d74">#FF5D74</color>
+    <!--v3.4全局红色-->
+    <color name="color_fa2b5c">#fa2b5c</color>
+
+    <color name="color_99fa2b5c">#99fa2b5c</color>
+
+    <!--40%透明的ffffff-->
+    <color name="color_40ffffff">#66ffffff</color>
+
+    <!-- 深灰色 -->
+    <color name="color_dark_gray">#FF444444</color>
+    <!-- 浅灰色 -->
+    <color name="color_light_gray">#FFAAAAAA</color>
+
+    <color name="color_f7f7f7">#F7F7F7</color>
+    <!-- 最浅灰 -->
+    <color name="color_f3f3f3">#F3F3F3</color>
+
+    <color name="color_f9f9f9">#F9F9F9</color>
+    <!-- 分割线深灰 -->
+    <color name="color_dddddd">#FFDDDDDD</color>
+    <!-- 分割线浅灰-->
+    <color name="color_eeeeee">#FFEEEEEE</color>
+
+    <!-- 灰1-->
+    <color name="color_gray">#FF666666</color>
+    <!-- 灰2-->
+    <color name="color_dark_gray_f6f6f6">#FFF6F6F6</color>
+    <!-- 灰3-->
+    <color name="color_999999">#FF999999</color>
+    <!-- 灰4-->
+    <color name="color_cccccc">#FFCCCCCC</color>
+    <!-- 灰5-->
+    <color name="color_d6cbcb">#D6CBCB</color>
+    <!---->
+    <color name="color_f6f6f6">#f6f6f6</color>
+
+    <!--文字灰-->
+    <color name="color_aaaaaa">#AAAAAA</color>
+
+    <color name="color_d1d1d1">#d1d1d1</color>
+    <!-- 文字深灰-->
+    <color name="color_text_dark_gray">#222222</color>
+
+    <color name="color_99ffffff">#99FFFFFF</color>
+
+    <color name="color_b2ffffff">#B2FFFFFF</color>
+
+    <color name="color_4dffffff">#4dffffff</color>
+
+    <color name="color_4cffffff">#4CFFFFFF</color>
+
+    <color name="color_666666">#666666</color>
+
+    <color name="color_4d4d4d">#4d4d4d</color>
+
+    <color name="color_c5c5c5">#C5C5C5</color>
+
+    <color name="color_333333">#333333</color>
+
+    <color name="color_fe8095">#fe8095</color>
+
+    <color name="color_7f333333">#7f333333</color>
+
+
+    <!-- 黑-->
+    <color name="color_black">#FF000000</color>
+    <!-- 黑2-->
+    <color name="color_7c000000">#7C000000</color>
+
+
+    <color name="color_222222">#222222</color>
+
+    <color name="color_ffffff">#ffffff</color>
+
+    <!-- 白-->
+    <color name="color_white">#FFFFFFFF</color>
+    <!-- 灰白-->
+    <color name="color_ffe9e1e1">#FFE9E1E1</color>
+    <!-- 灰白2-->
+    <color name="color_7fffffff">#7FFFFFFF</color>
+    <!-- 灰白3 -->
+    <color name="color_fafafa">#FAFAFA</color>
+    <!-- 灰白4 -->
+    <color name="color_feecf2">#FEECF2</color>
+
+    <!--灰色-->
+    <color name="color_f1f1f1">#F1F1F1</color>
+
+    <!-- 带透明度的白色 -->
+    <color name="color_f2ffffff">#F2FFFFFF</color>
+
+    <color name="color_7cffffff">#7cffffff</color>
+
+    <!-- 引导页颜色 -->
+    <color name="color_f96184">#F96184</color>
+    <color name="color_3393E6">#3393E6</color>
+
+    <!-- 透明灰白-->
+    <color name="color_66ffffff">#66FFFFFF</color>
+
+
+    <!-- 蓝-->
+    <color name="color_blue">#0BC2F5</color>
+    <!-- 浅蓝1-->
+    <color name="holo_blue_light">#FF33B5E5</color>
+
+
+    <!-- 黄-->
+    <color name="color_yellow">#FFDE03</color>
+    <!-- 浅黄-->
+    <color name="color_yellow_light">#FFCC01</color>
+    <!-- 深黄-->
+    <color name="color_deep_yellow">#FFC000</color>
+    <color name="color_ffd623">#FFD623</color>
+
+    <!-- 橙-->
+    <color name="color_orange">#FFFFAA47</color>
+    <!-- 橙1-->
+    <color name="color_ff9c00">#FF9C00</color>
+    <!-- 橙2-->
+    <color name="color_fc9a3a">#FC9A3A</color>
+
+    <color name="color_ff8500">#FF8500</color>
+    <color name="color_dcad4b">#DCAD4B</color>
+    <color name="color_fff1cf">#FFF1CF</color>
+
+    <!-- 紫-->
+    <color name="color_pink">#AA3AD0</color>
+
+
+    <!-- 绿-->
+    <color name="color_green">#00DEBD</color>
+
+    <color name="color_47d2d0">#47D2D0</color>
+    <!-- 彩条绿-->
+    <color name="color_77cdcc">#77CDCC</color>
+    <!-- 绿色-->
+    <color name="color_6ec02c">#6ec02c</color>
+    <!--抢稀奇页面价格颜色-->
+    <color name="color_ff3355">#ff3355</color>
+    <color name="color_f52749">#F52749</color>
+    <!--抢神马页面价格颜色-->
+    <color name="color_fe3355">#fe3355</color>
+    <color name="color_000000">#99000000</color>
+    <color name="color_33000000">#33000000</color>
+    <color name="color_8a2e01">#8a2e01</color>
+    <color name="color_ff2e4c">#ff2e4c</color>
+
+    <color name="color_e5e5e5">#e5e5e5</color>
+
+    <color name="color_fc5474">#fc5474</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="color_e0e0e0">#e0e0e0</color>
+    <color name="color_ff962f">#FF962F</color>
+    <color name="color_f2fc5474">#f2fc5474</color>
+    <color name="color_f237bf8a">#f237bf8a</color>
+    <color name="color_d52541">#d52541</color>
+    <color name="color_99bfbaba">#99bfbaba</color>
+
+    <color name="color_66bfbaba">#66bfbaba</color>
+    <color name="color_64bfbaba">#64bfbaba</color>
+
+    <color name="color_888888">#888888</color>
+
+    <!--20%透明白色-->
+    <color name="color_ccffffff">#CCFFFFFF</color>
+
+    <color name="color_fddce4">#FDDCE4</color>
+
+    <color name="color_c7c7c7">#C7C7C7</color>
+
+    <color name="color_26d8d8d8">#26d8d8d8</color>
+
+    <color name="color_f2f2f2">#f2f2f2</color>
+
+    <color name="color_676767">#676767</color>
+
+    <color name="color_e2e2e2">#e2e2e2</color>
+
+    <color name="color_d90c0b0b">#d90c0b0b</color>
+
+</resources>

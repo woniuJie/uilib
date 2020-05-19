@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.culiu.baseuilib.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <com.chuchujie.core.widget.radiobutton.BadgeRadioButton
+            android:id="@+id/radio_button_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="首页"
+            app:badge_background_color="#0000ff"
+            app:badge_gravity="center"
+            app:badge_text_color="#00ff00"/>
+
+        <com.chuchujie.core.widget.radiobutton.BadgeRadioButton
+            android:id="@+id/radio_button_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="分类"
+            app:badge_gravity_offset_x="20dp"
+            app:badge_gravity_offset_y="20dp"/>
+
+        <com.chuchujie.core.widget.radiobutton.BadgeRadioButton
+            android:id="@+id/radio_button_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="客服"
+            app:badge_exact="false"
+            app:badge_shadow_quadrant="four"
+            app:badge_show_shadow="true"/>
+
+        <com.chuchujie.core.widget.radiobutton.BadgeRadioButton
+            android:id="@+id/radio_button_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的"
+            app:badge_background_border_color="#ff00ff"
+            app:badge_background_border_width="2dp"
+            app:badge_background_color="#0000ff"/>
+
+    </RadioGroup>
+
+
+    <com.chuchujie.core.widget.imageview.BadgeImageView
+        android:id="@+id/image_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radio_group"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="55dp"
+        android:src="@mipmap/ic_launcher"
+        app:badge_background_color="#0000ff"
+        app:badge_text="图片"
+        app:badge_text_color="#00ff00"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutofitTextView">
+        <!-- Minimum size of the text. -->
+        <attr name="minTextSize" format="dimension"/>
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr name="precision" format="float"/>
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr name="sizeToFit" format="boolean"/>
+    </declare-styleable>
+
+    <!--自定义字体样式-->
+    <declare-styleable name="Font">
+        <attr name="customFontFamily" format="enum">
+            <enum name="ch" value="0"/>
+            <enum name="en" value="1"/>
+        </attr>
+        <attr name="hasPrice" format="boolean"/>
+        <attr name="symbolSize" format="integer"/>
+    </declare-styleable>
+
+    <!--自定义徽章-->
+    <declare-styleable name="badge">
+        <!--文字-->
+        <attr name="badge_text" format="string"/>
+        <!--数字-->
+        <attr name="badge_number" format="integer"/>
+        <!--文字颜色-->
+        <attr name="badge_text_color" format="color"/>
+        <!--文字颜色-->
+        <attr name="badge_text_size" format="dimension"/>
+        <!--内容padding-->
+        <attr name="badge_padding" format="dimension"/>
+        <!--方向  flag：位或运算，copy from https://github.com/aosp-mirror/platform_frameworks_base/blob/master/core/res/res/values/attrs.xml -->
+        <attr name="badge_gravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_vertical" value="0x10"/>
+            <flag name="fill_vertical" value="0x70"/>
+            <flag name="center_horizontal" value="0x01"/>
+            <flag name="fill_horizontal" value="0x07"/>
+            <flag name="center" value="0x11"/>
+            <flag name="fill" value="0x77"/>
+            <flag name="clip_vertical" value="0x80"/>
+            <flag name="clip_horizontal" value="0x08"/>
+            <flag name="start" value="0x00800003"/>
+            <flag name="end" value="0x00800005"/>
+        </attr>
+        <!--x偏移量-->
+        <attr name="badge_gravity_offset_x" format="dimension"/>
+        <!--y偏移量-->
+        <attr name="badge_gravity_offset_y" format="dimension"/>
+        <!--是否显示阴影-->
+        <attr name="badge_show_shadow" format="boolean"/>
+        <!--阴影在哪个象限-->
+        <attr name="badge_shadow_quadrant" format="enum">
+            <enum name="first" value="1"/>
+            <enum name="second" value="2"/>
+            <enum name="third" value="3"/>
+            <enum name="four" value="4"/>
+        </attr>
+        <!--背景Drawable-->
+        <attr name="badge_background_drawable" format="reference"/>
+        <!--是否裁剪背景-->
+        <attr name="badge_background_drawable_clip" format="boolean"/>
+        <!--描边画笔宽度-->
+        <attr name="badge_background_border_width" format="dimension"/>
+        <!--描边颜色-->
+        <attr name="badge_background_border_color" format="color"/>
+        <!--背景颜色-->
+        <attr name="badge_background_color" format="color"/>
+        <!--是否显示准确的数字-->
+        <attr name="badge_exact" format="boolean"/>
+    </declare-styleable>
+
+</resources>
